@@ -3,7 +3,9 @@
 Write the SQL in the file sql/08-query-likes-grade-two-or-more.sql
 */
 
-SELECT a.name AS liker_name, a.grade, b.name AS likee_id, b.grade FROM student_like
-JOIN students a ON a.id = student_like.liker_id
-JOIN students b ON b.id = student_like.likee_id
-WHERE a.grade + 2 = b.grade OR  b.grade + 2 = a.grade;
+SELECT a.name AS liker_name, a.grade AS liker_grade,b.name AS likee_name, b.grade AS likee_grade FROM exercises.student_like
+JOIN exercises.students a
+ON liker_id = a.id
+JOIN exercises.students b
+ON likee_id = b.id
+WHERE a.grade -2 >= b.grade;

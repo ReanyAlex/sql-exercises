@@ -8,7 +8,7 @@ write the SQL in the file sql/02-create-table-friend.sql
 
 
 
-CREATE TABLE friend (
+CREATE TABLE exercises.friend (
   id1 INTEGER,
   id2 INTEGER
 );

@@ -2,7 +2,18 @@
 Write the SQL in the file sql/07-query-friends-gabriel.sql
 */
 
-SELECT b.name FROM friend
-JOIN students a ON a.id = friend.id1
-JOIN students b ON b.id = friend.id2
-WHERE a.name = 'Gabriel';
+SELECT a.name, b.name FROM exercises.friend
+JOIN exercises.students a
+ON a.id = friend.id1
+JOIN exercises.students b
+ON b.id = friend.id2
+WHERE a.name = 'Gabriel' OR b.name = 'Gabriel';
+
+/* results
+"name","name"
+"Jordan","Gabriel"
+"Gabriel","Cassandra"
+"Gabriel","Andrew"
+"Alexis","Gabriel"
+"Gabriel","Jessica"
+*/
