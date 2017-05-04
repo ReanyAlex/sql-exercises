@@ -52,7 +52,7 @@ https://github.com/ReanyAlex/sql-exercises
 
 ### Day 4: Mini Project & Exercises
 
-- [X]Exercises 1-11 in the sql-exercises repo are complete and written to the appropriate file:
+- [X] Exercises 1-11 in the sql-exercises repo are complete and written to the appropriate file:
     - [X] sql/01-create-table-student.sql
     - [X] sql/02-create-table-friend.sql
     - [X] sql/03-create-table-like.sql
