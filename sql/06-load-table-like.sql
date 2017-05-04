@@ -3,4 +3,4 @@
 Write the SQL in the file sql/06-load-table-like.sql
 */
 
-COPY student_like FROM '/Users/alexreany/Desktop/sql-exercises/data/likes.csv' DELIMITER ',' CSV HEADER;
+COPY exercises.student_like FROM '/Users/alexreany/Desktop/sql-exercises/data/likes.csv' DELIMITER ',' CSV HEADER;

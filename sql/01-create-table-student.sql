@@ -7,7 +7,7 @@ grade is an integer
 write the SQL in the file sql/01-create-table-student.sql
 */
 
-CREATE TABLE students (
+CREATE TABLE exercises.students (
   id INTEGER PRIMARY KEY,
   name VARCHAR,
   grade INTEGER

@@ -3,6 +3,7 @@
 Write the SQL in the file sql/10-not-liked.sql
 */
 
-SELECT a.name AS liker_name, a.grade, b.name AS likee_id, b.grade FROM student_like
-JOIN students a ON a.id != student_like.liker_id
-JOIN students b ON b.id != student_like.likee_id;
+SELECT * FROM exercises.students
+	WHERE id NOT IN (SELECT liker_id From exercises.student_like)
+	AND id NOT IN (SELECT likee_id From exercises.student_like)
+	ORDER BY grade, name;

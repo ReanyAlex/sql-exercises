@@ -6,7 +6,7 @@ likee_id is a foreign key reference to a student
 write the SQL in the file sql/03-create-table-like.sql
 */
 
-CREATE TABLE student_like (
+CREATE TABLE exercises.student_like (
   liker_id INTEGER,
   likee_id INTEGER
 );

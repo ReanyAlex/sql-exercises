@@ -3,4 +3,4 @@
 Write the SQL in the file sql/04-load-table-student.sql
 */
 
-COPY students(id,name,grade) FROM '/Users/alexreany/Desktop/sql-exercises/data/students.csv' DELIMITER ',' CSV HEADER;
+COPY exercises.students FROM '/Users/alexreany/Desktop/sql-exercises/data/students.csv' DELIMITER ',' CSV HEADER;
