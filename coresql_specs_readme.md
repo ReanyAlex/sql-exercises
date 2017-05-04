@@ -22,12 +22,12 @@ https://github.com/ReanyAlex/sql-exercises
 - [X] Complete the SQL Basics course
 - [X] Complete the Advanced SQL queries course
 
-###Day 2: Relational Queries
+### Day 2: Relational Queries
 
 - [X] Complete the Relational Queries course
 - [X] Complete the Modifying databases with SQL course
 
-###Day 3: Install Postgres and Complete Tutorials with psql
+### Day 3: Install Postgres and Complete Tutorials with psql
 
 - [X] Install Homebrew by following instructions listed here
 - [X] Install Postgres by following instructions listed here
@@ -50,7 +50,7 @@ https://github.com/ReanyAlex/sql-exercises
     - [X] complete the tutorial for the order by clause here
     - [X] complete the tutorial for the group by clause here
 
-###Day 4: Mini Project & Exercises
+### Day 4: Mini Project & Exercises
 
 - [X]Exercises 1-11 in the sql-exercises repo are complete and written to the appropriate file:
     - [X] sql/01-create-table-student.sql
@@ -65,11 +65,11 @@ https://github.com/ReanyAlex/sql-exercises
     - [X] sql/10-not-liked.sql
     - [X] sql/11-liked-but-does-not-like.sql
 
-###Day 5: Exercises on SQL Bolt
+### Day 5: Exercises on SQL Bolt
 
 - [X] Complete the SQL Bolt tutorial
 
-###General
+### General
 
 - [X] All major features are added via pull requests with a clear description and concise commit messages.
 - [X] SQL files are well formatted and readable.

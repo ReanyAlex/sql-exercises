@@ -3,12 +3,14 @@
 Write the SQL in the file sql/09-mutual-likes.sql
 */
 
-SELECT  a.name AS liker_name, a.grade, b.name AS likee_id, b.grade FROM exercises.student_like
+SELECT  a.name AS liker_name, a.id
+FROM exercises.student_like
 JOIN exercises.students a
 ON a.id = student_like.liker_id
+INTERSECT
+SELECT  b.name AS liker_name, b.id
+FROM exercises.student_like
 JOIN exercises.students b
 ON b.id = student_like.likee_id
-WHERE a.name > b.name
-ORDER BY liker_name;
 
--- extra names need to be fixed
+-- extra name need to be fixed
