@@ -7,3 +7,10 @@ SELECT * FROM exercises.students
 	WHERE id NOT IN (SELECT liker_id From exercises.student_like)
 	AND id NOT IN (SELECT likee_id From exercises.student_like)
 	ORDER BY grade, name;
+
+	/* results
+	"id","name","grade"
+	1510,"Jordan",9
+	1381,"Tiffany",9
+	1661,"Logan",12
+	*/

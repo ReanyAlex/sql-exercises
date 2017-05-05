@@ -1,5 +1,5 @@
 ### Exercise 11 — Tasks
-+ Find the number of Artists in the studio (without a HAVING clause)
+1. Find the number of Artists in the studio (without a HAVING clause)
 + Find the number of Employees of each role in the studio
 + Find the total number of years employed by all Engineers
 

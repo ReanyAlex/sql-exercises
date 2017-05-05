@@ -1,11 +1,11 @@
 ### Exercise Exercise 8 — Tasks
-+ Find the name and role of all employees who have not been assigned to a building
+1. Find the name and role of all employees who have not been assigned to a building
 + Find the names of the buildings that hold no employees
 _________________
 
 #### 1
 
-SELECT name, Role FROM employees
+SELECT name, role FROM employees
 
 WHERE building IS NULL
 

@@ -55,7 +55,7 @@ SELECT author, AVG(words) AS avg_words FROM books
 
 GROUP BY author
 
-Having avg_words > 150000;
+HAVING avg_words > 150000;
 
 _________________
 

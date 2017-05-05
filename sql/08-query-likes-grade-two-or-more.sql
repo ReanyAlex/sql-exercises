@@ -9,3 +9,8 @@ ON liker_id = a.id
 JOIN exercises.students b
 ON likee_id = b.id
 WHERE a.grade -2 >= b.grade;
+
+/* results
+"liker_name","liker_grade","likee_name","likee_grade"
+"John",12,"Haley",10
+*/

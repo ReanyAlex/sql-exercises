@@ -1,5 +1,5 @@
 ### Exercise 18 — Tasks
-+ We've sadly reached the end of our lessons, lets clean up by removing the Movies table
+1. We've sadly reached the end of our lessons, lets clean up by removing the Movies table
 + And drop the BoxOffice table as well
 _________________
 
