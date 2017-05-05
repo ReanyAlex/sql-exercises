@@ -1,5 +1,5 @@
 ### Exercise 6 — Tasks
-+ Find the domestic and international sales for each movie
+1. Find the domestic and international sales for each movie
 + Show the sales numbers for each movie that did better internationally rather than domestically
 + List all the movies by their ratings in descending order
 
@@ -7,7 +7,7 @@ _________________
 
 #### 1
 
-SELECT movies.title, Boxoffice.Domestic_sales, Boxoffice.International_sales
+SELECT movies.title, B=boxoffice.domestic_sales, boxoffice.international_sales
 
 FROM movies
 

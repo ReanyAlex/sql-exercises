@@ -6,7 +6,7 @@ Authors: [@ReanyAlex, Alex Reany](https://github.com/ReanyAlex)
 
 JS Dev link: http://jsdev.learnersguild.org/goals/178-Core_SQL.html
 
-Review Link: [Project Review Link](https://github.com/ReanyAlex/oop-practice/pull/5)(needs to be changed)
+Review Link: [Project Review Link](https://github.com/ReanyAlex/sql-exercises)
 
 https://github.com/ReanyAlex/sql-exercises
 

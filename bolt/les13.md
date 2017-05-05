@@ -1,5 +1,5 @@
 ### Exercise 13 — Tasks
-+ Add the studio's new production, Toy Story 4 to the list of movies (you can use any director)
+1. Add the studio's new production, Toy Story 4 to the list of movies (you can use any director)
 + Toy Story 4 has been released to critical acclaim! It had a rating of 8.7, and made 340 million domestically and 270 million internationally. Add the record to the BoxOffice table.
 _________________
 

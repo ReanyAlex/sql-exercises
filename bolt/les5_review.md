@@ -1,5 +1,5 @@
 ### Review 1 — Tasks
-+ List all the Canadian cities and their populations ✓
+1. List all the Canadian cities and their populations ✓
 + Order all the cities in the United States by their latitude from north to south
 + List all the cities west of Chicago, ordered from west to east
 + List the two largest cities in Mexico (by population)
@@ -31,7 +31,7 @@ ORDER BY longitude;
 
 #### 4
 
-SELECT City  FROM north_american_cities
+SELECT city FROM north_american_cities
 
 WHERE country = "Mexico"
 

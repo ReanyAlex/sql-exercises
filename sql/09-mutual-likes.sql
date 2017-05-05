@@ -22,3 +22,11 @@ JOIN exercises.student_like b
 ON students.id = b.likee_id
 ) AS test1) test98
 ON students.id = test98.id_result;
+
+/* results
+"name","id_result"
+"Jessica",1501
+"Gabriel",1689
+"Kyle",1934
+"Cassandra",1709
+*/

@@ -1,12 +1,12 @@
 ### Exercise 12 — Tasks
-+ Find the number of movies each director has directed
+1. Find the number of movies each director has directed
 + Find the total domestic and international sales that can be attributed to each director
 
 _________________
 
 #### 1
 
-SELECT COUNT(title) as num_movies)directed, director
+SELECT COUNT(title) AS num_movies_directed, director
 
 FROM movies
 
@@ -19,6 +19,6 @@ FROM movies
 
 JOIN boxoffice
 
-ON ,ovies.Id = boxoffice.movie_id
+ON movies.Id = boxoffice.movie_id
 
 Group BY movies.director;

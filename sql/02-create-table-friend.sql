@@ -12,6 +12,3 @@ CREATE TABLE exercises.friend (
   id1 INTEGER,
   id2 INTEGER
 );
-
-
--- add references

@@ -1,5 +1,5 @@
 ### Exercise 7 — Tasks
-+ Find the list of all buildings that have employees
+1. Find the list of all buildings that have employees
 + Find the list of all buildings and their capacity
 + List all buildings and the distinct employee roles in each building (including empty buildings)
 
@@ -7,9 +7,9 @@ _________________
 
 #### 1
 
-SELECT Building FROM employees
+SELECT building FROM employees
 
-JOIN Buildings
+JOIN buildings
 
 ON employees.building = buildings.building_name
 
